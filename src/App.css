@@ -20,3 +20,45 @@
 .App-link {
   color: #09d3ac;
 }
+
+.Row {
+  display: block;
+  text-align: center
+}
+
+.Cell{
+  display: inline-block;
+  border: 1px solid red;
+  min-width: 100px;
+  min-height: 100px
+}
+
+.Center-flex{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Fill-height{
+  flex: 1 1 auto
+}
+
+.Top-separation{
+  margin-top:20px
+}
+
+.Lightup{
+  background-color: #09d3ac;
+}
+
+.Disabled{
+  background-color: darkgray;
+  cursor:none;
+}
+
+.Board{
+  
+}
+.Clickable{
+  cursor: pointer;
+}
